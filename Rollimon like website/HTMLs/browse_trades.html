@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Trades - Murder Mystery 2 Trading</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .trade-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .trade-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .trade-card img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .trade-details {
+            padding: 20px;
+        }
+
+        .trade-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .trade-description {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .trade-user {
+            font-size: 1em;
+            color: #888;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Murder Mystery 2 Trading</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="#">Browse Trades</a></li>
+            <li><a href="post_trades.html">Post Trade</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="trade-card">
+            <div class="trade-details">
+                <h3 class="trade-title">Legendary Knife for Trade</h3>
+                <p class="trade-description">Looking to trade my legendary knife for other valuable items. Contact me if interested!</p>
+                <p class="trade-user">Posted by: JohnDoe</p>
+            </div>
+        </div>
+        <div class="trade-card">
+            <div class="trade-details">
+                <h3 class="trade-title">Rare Gun for Trade</h3>
+                <p class="trade-description">Trading my rare gun for other collectible items. Reach out to me for offers!</p>
+                <p class="trade-user">Posted by: JaneSmith</p>
+            </div>
+        </div>
+        <!-- Add more trade cards as needed -->
+    </div>
+    <footer>
+        <p>&copy; 2024 Murder Mystery 2 Trading</p>
+    </footer>
+</body>
+</html>
